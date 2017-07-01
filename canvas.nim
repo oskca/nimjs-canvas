@@ -6,7 +6,7 @@ when not defined(js) and not defined(Nimdoc):
   {.error: "This module only works for the JavaScript target.".}
 
 
-include private/context2d
+include canvas/context2d
 
 # The combinded functions go here:
 

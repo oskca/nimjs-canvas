@@ -3,7 +3,7 @@ from dom import ImageElement
 export ImageElement
 import jsffi
 
-include canvas
+include types
 
 converter toFloat*(x:int): float = float(x)
 
